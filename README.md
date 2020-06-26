@@ -1,5 +1,10 @@
 # office-simulation
 
+Compile using GNU C++ Compiler:
+```bash
+g++ -std=c++11 -pthread -o biuro biuro.cpp -lncurses
+```
+
 2-story office simulation done for "Systemy Operacyjne 2" course.  
 The office is not visualised, instead everything is logged on the terminal in real time.  
 People are implemented as threads, various places with things to do are considered resources.  
@@ -39,3 +44,7 @@ __Employee lifecycle__
 2. 30% stands in line to stairs in orded to change floors
 3. 50% works on computer, 50% works at customer service spot
 4. Repeat
+
+---
+
+![run](/screenshot.png)
